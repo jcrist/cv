@@ -167,6 +167,8 @@ developing OSS data analytics tools that users love.
     improve user experience.
   - Optimized Prefect's `dask` integration, allowing for resilient and scalable
     execution of large workflows.
+  - Designed and implemented platform features, working across the full
+    software stack (backend, frontend, and core SDK).
 ]
 
 #entry(
@@ -187,10 +189,12 @@ developing OSS data analytics tools that users love.
     JupyterHub deployment].
   - Created and led development of
     #link("https://gateway.dask.org/")[dask-gateway], a tool for managing and
-    deploying Dask in multi-user enterprise environments. Helped several large
-    organizations deploy `dask-gateway` to serve hundreds of users.
+    deploying Dask in multi-user enterprise environments. Supported Kubernetes,
+    Apache YARN, and HPC schedulers as deployment backends. Helped several
+    large organizations deploy `dask-gateway` to serve hundreds of users.
   - Executed `dask` consulting engagements, helping several Fortune 500
-    companies use `dask` in production. ]
+    companies use `dask` in production.
+]
 
 = Open Source
 - #link("https://dask.org")[Dask] steering council member
